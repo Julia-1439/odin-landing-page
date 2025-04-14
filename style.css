@@ -5,9 +5,18 @@ body {
     text-align: center;
 }
 
+
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header ul {
@@ -24,4 +33,7 @@ body {
 
 .header a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
