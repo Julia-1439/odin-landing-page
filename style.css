@@ -3,11 +3,9 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    text-align: center;
+
 }
 
-
-/* Header */
 .header {
     display: flex;
     padding: 8px 10%; /* 10% will be the left & right padding for all applicable elements on the page */
@@ -35,7 +33,31 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.header a, .greeting-content {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.greeting {
+    display: flex;
+    background-color: #1F2937;
+    padding: 48px 10%;
+}
+
+.greeting-container {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 500px;
+}
+
+.greeting img {
+    width: 50%;
+}
+
+.greeting-hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
