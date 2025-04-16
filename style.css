@@ -61,3 +61,22 @@ body {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+button {
+    font-weight: bold;
+    width: 150px;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.greeting-container button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+}
+
+.cta button {
+    background-color: rgba(0,0,0,0);
+    border-color: white;
+}
