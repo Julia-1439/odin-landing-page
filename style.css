@@ -49,7 +49,6 @@ body {
 .greeting-container {
     display: flex;
     flex-flow: column wrap;
-    flex-basis: 500px;
 }
 
 .greeting img {
