@@ -49,6 +49,8 @@ body {
 .greeting-container {
     display: flex;
     flex-flow: column wrap;
+    gap: 8px;
+    padding-right: 24px;
 }
 
 .greeting img {
@@ -73,6 +75,7 @@ button {
 .greeting-container button {
     background-color: #3882F6;
     border-color: #3882F6;
+    margin: 12px 0;
 }
 
 .cta button {
