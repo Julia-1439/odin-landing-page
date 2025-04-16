@@ -35,29 +35,29 @@ body {
     text-decoration: none;
 }
 
-.header a, .greeting-content {
+.header a, .hero-content {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.greeting {
+.hero {
     display: flex;
     background-color: #1F2937;
     padding: 48px 10%;
 }
 
-.greeting-container {
+.hero-container {
     display: flex;
     flex-flow: column wrap;
     gap: 8px;
     padding-right: 24px;
 }
 
-.greeting img {
+.hero img {
     width: 50%;
 }
 
-.greeting-hero {
+.hero-title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -72,7 +72,7 @@ button {
     border-style: solid;
 }
 
-.greeting-container button {
+.hero-container button {
     background-color: #3882F6;
     border-color: #3882F6;
     margin: 12px 0;
@@ -88,7 +88,7 @@ button {
     color: rgb(97, 97, 97);
 }
 
-.info-hero {
+.info-title {
     font-size: 36px;
     color: #1F2937; 
     font-weight: 900;
