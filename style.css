@@ -101,6 +101,7 @@ button {
 
 .info-card {
     width: 200px;
+    font-size: small;
 }
 
 .info-card img {
