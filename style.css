@@ -42,19 +42,22 @@ body {
 
 .hero {
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
     padding: 48px 10%;
+    gap: 64px;
 }
 
 .hero-container {
     display: flex;
     flex-flow: column wrap;
     gap: 8px;
-    padding-right: 24px;
+    width: 50%;
 }
 
 .hero img {
-    width: 50%;
+    width: 450px;
+
 }
 
 .hero-title {
