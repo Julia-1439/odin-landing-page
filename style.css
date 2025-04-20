@@ -8,7 +8,7 @@ body {
 
 .header {
     display: flex;
-    padding: 8px 10%; /* 10% will be the left & right padding for all applicable elements on the page */
+    padding: 8px 10%; /* 10% will be the left & right padding for elements at the edge of the page */
     justify-content: space-between;
     background-color: #1F2937;
 }
