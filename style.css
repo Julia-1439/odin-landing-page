@@ -89,7 +89,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin: 32px 0 64px;
+    padding: 32px 0 64px;
 }
 
 .info-title {
