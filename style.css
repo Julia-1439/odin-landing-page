@@ -151,3 +151,11 @@ button {
     border-color: white;
     height: 100%;
 }
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: small;
+    text-align: center;
+    padding: 32px;
+}
