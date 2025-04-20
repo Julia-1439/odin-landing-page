@@ -73,7 +73,7 @@ button {
 }
 
 .hero-container button {
-    background-color: #3882F6;
+    background: #3882F6;
     border-color: #3882F6;
     margin: 12px 0;
 }
