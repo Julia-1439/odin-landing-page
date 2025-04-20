@@ -78,11 +78,6 @@ button {
     margin: 12px 0;
 }
 
-.cta button {
-    background-color: rgba(0,0,0,0);
-    border-color: white;
-}
-
 .info {
     text-align: center;
     color: rgb(97, 97, 97);
@@ -128,4 +123,30 @@ button {
 
 .quote-origin {
     text-align: right;
+}
+
+.cta {
+    padding: 64px 20%;
+    color: white; 
+}
+
+.cta-container {
+    font-size: small;
+    background: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 32px 64px;
+    border-radius: 8px;
+    gap: 32px;
+}
+
+.cta-container div {
+    white-space: pre-line;
+}
+
+/* Manually adjust height since elements take up the max length of the cross axis */
+.cta button {
+    background: #3882F6;
+    border-color: white;
+    height: 100%;
 }
