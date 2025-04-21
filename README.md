@@ -11,6 +11,8 @@ I chose to not make many comments on my style sheet, but I did my best to group 
 
 I'm satisfied with how I was able to avoid deep rabbit holes that deviated from the core principles being taught and not focus so much on getting things perfect. I got better at leaving things less than "ideal" in favor of making more important progress elsewhere. 
 
+Time taken: 4 days, spread out over 8 days. April 13 to April 20, 2025
+
 ## Improvements
 
 One area I wish I was able to use more here was the `flex` property to adjust the flex-grow, flex-shrink, and flex-basis properties. Just for my records so I don't forget: flex-basis being auto means it'll check for any specified width to use, and 0 means its minimum width will be the size of its content. The default values for flex-grow, flex-shrink, and flex-basis are 0, 1, and auto, respectively. 
