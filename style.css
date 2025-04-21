@@ -149,8 +149,8 @@ button {
     justify-content: center;
 }
 
-.cta-container div {
-    white-space: pre-line;
+.cta-container p {
+    margin: 0 0 4px 0;
 }
 
 /* Manually adjust height since elements take up the max length of the cross axis */
