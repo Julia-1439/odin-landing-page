@@ -1,0 +1,47 @@
+// Pushes changes to Github repo, main branch
+git push origin main
+
+// Undos the last commit and puts it as a new commit, provided staging area is clean
+git revert HEAD
+git revert HEAD~n  // undos the nth commit before the last commit HEAD
+
+// Clear staging area (CLEARS UNSTAGED CHANGES)
+git restore
+
+// Changes the commit message of your last commit
+git commit --amend
+
+// Opens an interactive prompt to change commit messages of past commits; change them to reword. n indicates how many last commits to list including HEAD
+git rebase -i HEAD~n
+
+// Rebasing would make your branch differ from the remote. Can force push in this case. 
+git push -f origin main
+
+// Shows the changes a commit made, both additions and removals
+git show COMMIT
+
+// Shows the difference between the index (area that has your unstaged changes) and your last stage. 
+git diff
+
+// Shows the log of commits each in one line
+git log --oneline
+
+// Squash the last N commits. reset in general sets the current HEAD to the specified state. The --soft flag makes it so the changes are only staged - do git status to see. 
+git reset --soft HEAD~N
+git commit
+// OR
+git rebase -i HEAD~N
+// If have unstaged changes, need to stash them with:
+git stash // defaults to git stash push
+// followed by once ready to restore: 
+git stash apply
+
+// Commit partial file
+https://stackoverflow.com/questions/1085162/commit-only-part-of-a-files-changes-in-git
+git add --patch <file_name>
+
+// See staged changes
+// Normally git diff only diffs the unstaged changes against the last commit HEAD. This one diffs your index (staged changes) against HEAD. 
+git diff --staged  
+OR
+git diff --cached  // staged and cached are synonyms
